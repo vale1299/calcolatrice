@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Calcolatrice</title>
+        <link href="stile.css" rel="stylesheet" type="text/css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <script	src="script/jquery.js" type="text/javascript"></script>
+        <script	src="script/script.js" type="text/javascript"></script>
+    </head>
+
+    <body onload="accensione()">
+        <div class="contenitore">
+          <div class="orizzontale">
+              <input type="label" name="display" id="display" readonly="readonly">
+          </div>  
+
+          <div class="orizzontale">
+            <div class="contenitore-bottone"><input type="button" name="sette" value="7" class="numero"  onclick="scrivi(7)"></div>
+            <div class="contenitore-bottone"><input type="button" name="otto" value="8"class="numero" onclick="scrivi(8)"></div>
+            <div class="contenitore-bottone"><input type="button" name="nove" value="9" class="numero" onclick="scrivi(9)"></div>
+            <div class="contenitore-bottone-grande"><input type="button" name="divisione" value="➗" class="operazione" onclick="operazioneset('divisione')"></div> 
+          </div>
+
+          <div class="orizzontale">
+            <div class="contenitore-bottone"><input type="button" name="quattro" value="4" class="numero" onclick="scrivi(4)"></div>
+            <div class="contenitore-bottone"><input type="button" name="cinque" value="5" class="numero" onclick="scrivi(5)"></div>
+            <div class="contenitore-bottone"><input type="button" name="sei" value="6" class="numero" onclick="scrivi(6)"></div>
+            <div class="contenitore-bottone-grande"><input type="button" name="moltiplicazione" value="✖" class="operazione" onclick="operazioneset('moltiplicazione')"></div>
+          </div>
+
+          <div class="orizzontale">
+            <div class="contenitore-bottone"><input type="button" name="uno" value="1" class="numero" onclick="scrivi(1)"></div>
+            <div class="contenitore-bottone"><input type="button" name="due" value="2" class="numero" onclick="scrivi(2)"></div>
+            <div class="contenitore-bottone"><input type="button" name="tre" value="3" class="numero" onclick="scrivi(3)"></div>
+            <div class="contenitore-bottone-grande"><input type="button" name="sottrazione" value="➖" class="operazione" onclick="operazioneset('sottrazione')"></div>
+          </div>
+
+          <div class="orizzontale">
+            <div class="contenitore-bottone"><input type="button" name="zero" value="0" class="numero" onclick="scrivi(0)"></div>
+            <div class="contenitore-bottone"><input type="button" name="virgola" value="⦁" class="numero" onclick="scrivi('.')"></div>
+            <div class="contenitore-bottone"><input type="button" name="radice" value="√" class="numero" onclick="operazioneset('radice'); risultato()"></div>
+            <div class="contenitore-bottone-grande"><input type="button" name="addizione" value="➕" class="operazione" onclick="operazioneset('addizione')"></div>
+          </div>
+
+          <div class="orizzontale">
+            <div class="contenitore-bottone"><input type="button" name="reset" value="🔃" class="reset" onclick="reset()"></div>
+            <div class="contenitore-bottone"><input type="button" name="cancella" value="🚫" class="cancella" onclick="cancella()"></div>  
+            <div class="contenitore-bottone"><input type="button" name="potenza" value="ⁿⁱ" class="potenza" onclick="operazioneset('potenza')"></div>
+            <div class="contenitore-bottone-grande"><input type="button" name="uguale" value="〓" class="uguale" onclick="risultato()"></div>
+          </div>
+        </div>
+    </body>
+</html>

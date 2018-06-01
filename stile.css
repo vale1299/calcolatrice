@@ -1,0 +1,160 @@
+.contenitore{
+    width: 263px;
+    height: 430px;
+    background-color: rgb(189, 188, 188);
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    box-shadow: rgb(141, 141, 139) 0px 10px 0px;
+}
+#display{
+    margin: 5px;
+    margin-top: 15px;
+    height: 60px;
+    width: 233px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.836);
+    font-size: 35px;
+    text-align: right;
+    padding-right: 10px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.orizzontale{
+    margin: 10px;
+    height: 60px;
+}
+.contenitore-bottone {
+    float: left;
+    width: 40px;
+    margin: 5px;
+    margin-top: 20px;
+}
+.contenitore-bottone-grande {
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    width: 80px;
+}
+.numero{
+    height: 40px;
+    width: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 18px;
+    border: none;
+    background-color: #2e2e2e;
+    color: #fff;
+    box-shadow: #6a6a6a 0px 8px 0px;
+}
+.numero:hover{
+    background-color: rgb(96, 101, 104);
+}
+.numero:active{
+    box-shadow: #6a6a6a 0px 5px 0px;
+    margin-top: 5px;
+}
+.operazione{
+    height: 40px;
+    width: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    box-shadow: #6a6a6a 0px 8px 0px;
+}
+.operazione:hover{
+    background-color: rgb(96, 101, 104);
+}
+.operazione:active{
+    box-shadow: #6a6a6a 0px 5px 0px;
+    margin-top: 5px;
+}
+.reset{
+    height: 40px;
+    width: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(223, 72, 2);
+    border: none;
+    border-radius: 18px;
+    box-shadow: #6a6a6a 0px 8px 0px;
+}
+.reset:hover{
+    background-color: rgb(233, 87, 19);
+    color: #fff;
+}
+.reset:active{
+    box-shadow: #6a6a6a 0px 5px 0px;
+    margin-top: 5px;
+}
+.cancella{
+    height: 40px;
+    width: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(223, 72, 2);
+    border: none;
+    border-radius: 18px;
+    box-shadow: #6a6a6a 0px 8px 0px;
+}
+.cancella:hover{
+    background-color: rgb(233, 87, 19);
+    color: #fff;
+}
+.cancella:active{
+    box-shadow: #6a6a6a 0px 5px 0px;
+    margin-top: 5px;
+}
+.tretasti{
+    float: left;
+    margin-left: 60px;
+}
+.uguale{
+    height: 40px;
+    width: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 128, 0);
+    color: #fff;
+    box-shadow: #6a6a6a 0px 8px 0px;
+}
+.uguale:hover{
+    background-color: rgb(6, 179, 6);
+}
+.uguale:active{
+    box-shadow: #6a6a6a 0px 5px 0px;
+    margin-top: 5px;
+}
+.potenza{
+    height: 40px;
+    width: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 18px;
+    border: none;
+    background-color: #2e2e2e;
+    color: #fff;
+    box-shadow: #6a6a6a 0px 8px 0px;
+}
+.potenza:hover{
+    background-color: rgb(96, 101, 104);
+}
+.potenza:active{
+    box-shadow: #6a6a6a 0px 5px 0px;
+    margin-top: 5px;
+}
